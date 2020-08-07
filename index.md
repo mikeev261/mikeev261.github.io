@@ -10,7 +10,7 @@ function test() {
 }
 ```
 
-``` 
+```verilog
 //Test
 always_ff @(posedge clk) begin
   if(reset_n) begin
