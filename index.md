@@ -4,11 +4,14 @@
 #### Heading 4
 Test test TEST
 
-```javascript function test() {
-console.log("look ma’, no spaces"); }
+```javascript 
+function test() {
+  console.log("look ma’, no spaces"); 
+}
 ```
 
-```systemverilog always @(posedge clk) begin
+```systemverilog 
+always @(posedge clk) begin
   if(reset_n) begin
     z <= 1'b0; 
   end
