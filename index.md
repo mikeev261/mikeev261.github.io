@@ -10,8 +10,8 @@ function test() {
 }
 ```
 
-```verilog
-//Test
+```sv
+//Test2
 always_ff @(posedge clk) begin
   if(reset_n) begin
     z <= 1'b0; 
